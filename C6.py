@@ -1,2 +1,2 @@
-print(10 / 5.0)
-print(10 / 5)
+count=25
+print(count < 25 or count > 25)

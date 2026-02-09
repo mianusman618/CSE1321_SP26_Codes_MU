@@ -1,12 +1,5 @@
-from itertools import count
-
 if __name__=="__main__":
-    count=1
-    while count<10:
-        if count==4:
-            print("inside if")
-            count += 1
-            continue
-        print("Iteration # ",count)
-        count+=1
-    print("rest of the program")
+    user_num=int(input("Enter a number to see its table : "))
+    print(f"Multiplication table of {user_num}")
+    for i in range(1,11):
+        print(f"{user_num} * {i} = {user_num*i}")

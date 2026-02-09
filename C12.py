@@ -1,9 +1,9 @@
 if __name__=="__main__":
-    count=1
-    while True:
-        if count==4:
-            print("inside if")
-            break
-        print("Iteration # ",count)
-        count+=1
-    print("rest of the program")
+    secret_num=4
+    user_input=int(input("Enter a number between 1-10 : "))
+    while user_input < 1 or user_input > 10:
+        user_input=int(input("Wrong input Please enter a number between 1-10 : "))
+    if user_input==secret_num:
+        print("Congrats you guessed it right")
+    else:
+        print("Wrong Guess Try again")
