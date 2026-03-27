@@ -1,0 +1,6 @@
+numbers=(45,3,2,1,8,23)
+print(numbers)
+result=sorted(numbers)
+print(result)
+newTuple=tuple(result)
+print(newTuple)
