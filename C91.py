@@ -1,0 +1,6 @@
+names = ()
+states = ("Georgia", "Florida", "Alabama")
+numbers = tuple(range(100))
+print(names)
+print(states)
+print(numbers)

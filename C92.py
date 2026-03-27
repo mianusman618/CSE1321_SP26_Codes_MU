@@ -1,0 +1,5 @@
+myList1=(50,1,3,65,23,2,87,5)
+print(myList1)
+myList2=tuple(sorted(myList1))
+print(myList2)
+print(myList1)
