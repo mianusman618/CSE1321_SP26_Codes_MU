@@ -1,0 +1,10 @@
+list1=[2,50,32,1,5,7,2,78]
+print(list1)
+tuple1=tuple(list1)
+print(tuple1)
+dict1={"Alice":90,"bob":95,"charlie":58}
+print(dict1)
+dict1["abc"]=500
+print(dict1)
+dict1["Charlie"]=78
+print(dict1)
