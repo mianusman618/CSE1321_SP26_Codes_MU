@@ -11,4 +11,3 @@ print(dict2)
 
 del dict2["Charlie"]
 print(dict2)
-dict2.up
