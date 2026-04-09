@@ -1,4 +1,6 @@
 var_list=[23,1,5,2,"xyz"]
+var_list.
+
 var_string="trqazx mnh"
 var_tuple=(24,6,1,"Abc")
 print("List = ",var_list)
