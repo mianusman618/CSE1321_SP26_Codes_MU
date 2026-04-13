@@ -12,7 +12,7 @@ class Dog:
         print(self.name," Inside Growl")
 
 if __name__=="__main__":
-    d1=Dog(2,"Alice")
+    d1=Dog(2,"Alice","Black")
     d2=Dog(5,color="ABC")
     d1.eat(4)
     d2.eat(10)
